@@ -4,6 +4,44 @@ Eine Windows-Desktop-App (Tauri + React), die deinen Workspace-Ordner `.cursor/`
 
 Entwickelt von **HorosCode** für HorosCloud-Template-Workspaces.
 
+## Screenshots
+
+### Einstieg
+
+Willkommens-Dashboard mit Kurzübersicht: Was `.cursor/` enthält, wie das HorosCode-Team-Avatar-System funktioniert und wann du **Einfach** vs. **Erweitert** nutzt.
+
+![Einstieg — Willkommens-Dashboard mit Kurzübersicht](docs/screenshots/einstieg.png)
+
+### Suche
+
+Volltextsuche über Regeln, Skills, Agenten und Befehle — mit Facetten nach Typ (Regel, Skill, Agent, …) und Quelle (HorosCode lokal, Cursor eingebaut, Upstream).
+
+![Suche — Volltext mit Typ- und Quellen-Facetten](docs/screenshots/suche.png)
+
+### Befehle & Modi
+
+Slash-Befehle wie `/tasks` oder `/plan` mit vollständiger Markdown-Dokumentation; daneben Modus-Parameter (`/lean`, `/wide`, `/doc-epic`, …) als Spickzettel.
+
+![Befehle & Modi — Slash-Befehle und Modus-Parameter](docs/screenshots/befehle-modi.png)
+
+### Ordnerkarte
+
+Live-Baum deines `.cursor/`-Ordners. Graue Knoten sind laut `.gitignore` vom Scan und Export ausgeschlossen.
+
+![Ordnerkarte — Live-Baum des .cursor-Ordners](docs/screenshots/ordnerkarte.png)
+
+### Agenten
+
+Team-Avatar-Roster: alle Agenten-Definitionen mit Zweck, Schwerpunkten und Querverweisen — von HorosCode-Koordinatoren bis zu Upstream-Chatnodes.
+
+![Agenten — Team-Avatar-Roster mit Detailansicht](docs/screenshots/agenten.png)
+
+### Regeln
+
+Parst `rules/*.mdc` inklusive Frontmatter, **Always Apply**-Tags und Beziehungsgraph (verweist auf / verknüpft von).
+
+![Regeln — .mdc-Regeln mit Beziehungsgraph](docs/screenshots/regeln.png)
+
 ## Funktionen
 
 - **Ordnerkarte** — Live-Baum mit Ausschluss-Hinweisen aus `.gitignore`
@@ -42,34 +80,6 @@ npm run tauri build
 
 Installer/EXE liegen unter `src-tauri/target/release/bundle/`.
 
-## Export
-
-Klicke in der Toolbar auf **Exportieren**. Dateien landen in `<workspace>/export/`:
-
-| Pfad | Inhalt |
-|------|--------|
-| `README.md` | Bundle-Index |
-| `rules/`, `skills/`, `agents/`, `commands/` | Abschnitts-Markdown |
-| `configs/` | JSON-Konfigurationen (im Einfach-Modus geschwärzt) |
-| `relationships.md` | Querverweis-Karte |
-| `cursor-explorer-bundle.html` | Im Browser öffnen → Drucken → Als PDF speichern |
-
-Runtime-Ordner wie `.cursor/projects/` werden **niemals** gescannt oder exportiert.
-
-## Projektstruktur
-
-```
-cursor-explorer/
-  src/                 React-UI
-  src-tauri/src/       Rust-Scanner + Export
-    scanner.rs         Indexer
-    export.rs          Markdown/HTML-Export
-    parser.rs          Frontmatter + Referenz-Extraktion
-```
-
-## Lizenz
-
-HorosCode internes Template-Tooling.
 ## Starten mit starter.bat (HorosCloud-Template)
 
 Im übergeordneten HorosCode-Template-Ordner liegt `starter.bat` (neben dem Ordner `cursor-explorer/`). Das Skript:
@@ -93,3 +103,32 @@ npm run tauri build
 
 Logs bei Startproblemen: `src-tauri\target\release\starter-launch.log`
 
+## Export
+
+Klicke in der Toolbar auf **Exportieren**. Dateien landen in `<workspace>/export/`:
+
+| Pfad | Inhalt |
+|------|--------|
+| `README.md` | Bundle-Index |
+| `rules/`, `skills/`, `agents/`, `commands/` | Abschnitts-Markdown |
+| `configs/` | JSON-Konfigurationen (im Einfach-Modus geschwärzt) |
+| `relationships.md` | Querverweis-Karte |
+| `cursor-explorer-bundle.html` | Im Browser öffnen → Drucken → Als PDF speichern |
+
+Runtime-Ordner wie `.cursor/projects/` werden **niemals** gescannt oder exportiert.
+
+## Projektstruktur
+
+```
+cursor-explorer/
+  docs/screenshots/    README-Galerie
+  src/                 React-UI
+  src-tauri/src/       Rust-Scanner + Export
+    scanner.rs         Indexer
+    export.rs          Markdown/HTML-Export
+    parser.rs          Frontmatter + Referenz-Extraktion
+```
+
+## Lizenz
+
+HorosCode internes Template-Tooling.
