@@ -8,21 +8,9 @@ Entwickelt von **HorosCode** für HorosCloud-Template-Workspaces.
 
 ### Einstieg
 
-Willkommens-Dashboard mit Kurzübersicht: Was `.cursor/` enthält, wie das HorosCode-Team-Avatar-System funktioniert und wann du **Einfach** vs. **Erweitert** nutzt.
+Willkommens-Dashboard im **Einfach**-Modus: Was `.cursor/` enthält, wie das HorosCode-Team-Avatar-System funktioniert und wann du **Einfach** vs. **Erweitert** nutzt.
 
-![Einstieg — Willkommens-Dashboard mit Kurzübersicht](docs/screenshots/einstieg.png)
-
-### Suche
-
-Volltextsuche über Regeln, Skills, Agenten und Befehle — mit Facetten nach Typ (Regel, Skill, Agent, …) und Quelle (HorosCode lokal, Cursor eingebaut, Upstream).
-
-![Suche — Volltext mit Typ- und Quellen-Facetten](docs/screenshots/suche.png)
-
-### Befehle & Modi
-
-Slash-Befehle wie `/tasks` oder `/plan` mit vollständiger Markdown-Dokumentation; daneben Modus-Parameter (`/lean`, `/wide`, `/doc-epic`, …) als Spickzettel.
-
-![Befehle & Modi — Slash-Befehle und Modus-Parameter](docs/screenshots/befehle-modi.png)
+![Einstieg — Willkommens-Dashboard im Einfach-Modus](docs/screenshots/einstieg.png)
 
 ### Ordnerkarte
 
@@ -30,17 +18,35 @@ Live-Baum deines `.cursor/`-Ordners. Graue Knoten sind laut `.gitignore` vom Sca
 
 ![Ordnerkarte — Live-Baum des .cursor-Ordners](docs/screenshots/ordnerkarte.png)
 
-### Agenten
-
-Team-Avatar-Roster: alle Agenten-Definitionen mit Zweck, Schwerpunkten und Querverweisen — von HorosCode-Koordinatoren bis zu Upstream-Chatnodes.
-
-![Agenten — Team-Avatar-Roster mit Detailansicht](docs/screenshots/agenten.png)
-
 ### Regeln
 
-Parst `rules/*.mdc` inklusive Frontmatter, **Always Apply**-Tags und Beziehungsgraph (verweist auf / verknüpft von).
+Parst `rules/*.mdc` im **Einfach**-Modus — hier die HorosCode-Regel mit Frontmatter, **Always Apply**-Tags und Beziehungsgraph (verweist auf / verknüpft von).
 
-![Regeln — .mdc-Regeln mit Beziehungsgraph](docs/screenshots/regeln.png)
+![Regeln — horoscode-Regel mit Beziehungsgraph im Einfach-Modus](docs/screenshots/regeln.png)
+
+### Skills
+
+Lokale HorosCode-Skills, Cursor-Eingebaute (`skills-cursor/`) und Upstream-Metadaten — im **Einfach**-Modus mit Kurzbeschreibung und Querverweisen (hier: eingebauter **canvas**-Skill).
+
+![Skills — canvas-Skill mit Beziehungen im Einfach-Modus](docs/screenshots/skills.png)
+
+### Agenten
+
+Team-Avatar-Roster mit Detailansicht — hier der **HorosCloudV5 Helper Agent** mit Mission, Notfall-Befehlen und Querverweisen.
+
+![Agenten — HorosCloudV5 Helper Agent im Team-Roster](docs/screenshots/agenten.png)
+
+### Befehle & Modi
+
+Slash-Befehle mit Markdown-Dokumentation; daneben Modus-Parameter (`/lean`, `/wide`, `/doc-epic`, …) — hier der **cactus-juice**-Befehl im **Einfach**-Modus.
+
+![Befehle & Modi — cactus-juice mit Modus-Parameter-Spickzettel](docs/screenshots/befehle-modi.png)
+
+### Suche
+
+Volltextsuche über Regeln, Skills, Agenten und Befehle — mit Facetten nach Typ (Regel, Skill, Agent, …) und Quelle (HorosCode lokal, Cursor eingebaut, Upstream).
+
+![Suche — Volltext mit Typ- und Quellen-Facetten](docs/screenshots/suche.png)
 
 ## Funktionen
 
