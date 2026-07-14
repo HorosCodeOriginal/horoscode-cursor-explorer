@@ -145,11 +145,63 @@ cursor-explorer/
 
 ## Topics & Hashtags
 
-**GitHub-Topics:** `horoscode`, `cursor-ide`, `tauri`, `react`, `desktop-app`, `developer-tools`, `ai-agents`, `agent-orchestration`, `rules`, `skills`, `hooks`, `mcp`, `dotcursor`, `workspace-explorer`, `windows`, `documentation`, `open-source`, `markdown`, `german`
+Kuratierte Tags für GitHub-Topics, Social Media und README — ohne Spam, ohne Token- oder API-Hashtags.
 
-Für Social Sharing (Deutsch/Englisch):
+### Marke
 
-`#HorosCode` `#CursorIDE` `#Tauri` `#React` `#DesktopApp` `#DeveloperTools` `#AIAgents` `#AgentOrchestration` `#CursorRules` `#CursorSkills` `#MCP` `#DotCursor` `#OpenSource` `#Windows` `#Dokumentation`
+| Hashtag | Verwendung |
+|---------|------------|
+| `#HorosCode` | Firma / Entwickler |
+| `#HorosCloud` | Produktlinie / Template-Workspaces |
+
+### Produkt
+
+| Hashtag | Verwendung |
+|---------|------------|
+| `#CursorExplorer` | App-Name |
+| `#DotCursor` | `.cursor/`-Ordner im Workspace |
+| `#CursorWorkspace` | Workspace-Konfiguration erkunden |
+
+### Tech
+
+| Hashtag | Verwendung |
+|---------|------------|
+| `#Tauri` | Desktop-Framework (Rust + WebView) |
+| `#React` | UI-Stack |
+| `#DesktopApp` | Native Windows-App |
+| `#Windows` | Zielplattform |
+
+### Cursor / AI
+
+| Hashtag | Verwendung |
+|---------|------------|
+| `#CursorIDE` | Cursor-Editor-Ökosystem |
+| `#AIAgents` | Agenten-Roster & Orchestrierung |
+| `#AgentOrchestration` | Dispatcher, Koordinatoren, Worker |
+| `#CursorRules` | `rules/*.mdc` |
+| `#CursorSkills` | `skills/**/SKILL.md` |
+| `#MCP` | Model Context Protocol |
+| `#SlashCommands` | Befehle & Modus-Parameter |
+
+### Zielgruppe (DE)
+
+| Hashtag | Verwendung |
+|---------|------------|
+| `#EntwicklerTools` | Dev-Tooling für Teams |
+| `#Dokumentation` | Export, README-Bundles, Onboarding |
+| `#OpenSource` | Öffentliches Repo & Community |
+
+### GitHub-Topics
+
+`horoscode`, `cursor-ide`, `cursor-explorer`, `tauri`, `react`, `desktop-app`, `developer-tools`, `ai-agents`, `agent-orchestration`, `dotcursor`, `workspace-explorer`, `rules`, `skills`, `hooks`, `mcp`, `windows`, `documentation`, `open-source`, `german`
+
+### Social — Copy & Paste
+
+Alle Hashtags in einer Zeile (DE/EN):
+
+`#HorosCode` `#HorosCloud` `#CursorExplorer` `#DotCursor` `#CursorWorkspace` `#Tauri` `#React` `#DesktopApp` `#Windows` `#CursorIDE` `#AIAgents` `#AgentOrchestration` `#CursorRules` `#CursorSkills` `#MCP` `#SlashCommands` `#EntwicklerTools` `#Dokumentation` `#OpenSource`
+
+Fertige Post-Vorlagen: [HASHTAGS.md](HASHTAGS.md)
 
 ## Lizenz
 
