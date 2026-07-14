@@ -105,7 +105,7 @@ pub fn export_bundle(
         for script in &index.configs.hook_scripts {
             let body = if options.basic_mode {
                 format!(
-                    "# {}\n\nHook-Skript unter `{}` ({} Bytes). Öffne im Cursor Explorer für den vollständigen Quelltext.\n",
+                    "# {}\n\nHook-Skript unter `{}` ({} Bytes). Öffne im Cursor-Explorer für den vollständigen Quelltext.\n",
                     script.name,
                     script.relative_path,
                     script.body.len()
@@ -172,7 +172,7 @@ fn build_readme(index: &WorkspaceIndex, options: &ExportOptions) -> String {
     format!(
         r#"# HorosCode .cursor Export
 
-Erstellt von **Cursor Explorer** für HorosCode am {date}.
+Erstellt von **Cursor-Explorer** (HorosCode) am {date}.
 
 - Workspace: `{workspace}`
 - Modus: {mode}

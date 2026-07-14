@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "cursor-explorer",
+  "productName": "Cursor-Explorer",
   "version": "0.1.0",
   "identifier": "com.administrator.cursor-explorer",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "HorosCode Cursor Explorer",
+        "title": "Cursor-Explorer",
         "width": 1280,
         "height": 860,
         "minWidth": 900,

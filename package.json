@@ -1,5 +1,6 @@
 {
   "name": "cursor-explorer",
+  "description": "Cursor-Explorer — Desktop-App zum Erkunden von .cursor/-Workspaces",
   "private": true,
   "version": "0.1.0",
   "type": "module",

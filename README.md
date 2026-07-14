@@ -1,4 +1,4 @@
-# HorosCode Cursor Explorer
+# Cursor-Explorer
 
 Eine Windows-Desktop-App (Tauri + React), die deinen Workspace-Ordner `.cursor/` scannt und erklärt, wie du Regeln, Skills, Agenten, Befehle, Hooks und MCP-Konfiguration nutzt.
 
@@ -69,10 +69,10 @@ Gescrolltes Einstieg-Dashboard mit **Kurzübersicht** aller `.cursor/`-Konventio
 Nach `npm run tauri build` liegt der Windows-Installer unter:
 
 ```
-cursor-explorer/dist-installer/HorosCode-Cursor-Explorer-Setup.exe
+cursor-explorer/dist-installer/Cursor-Explorer-Setup.exe
 ```
 
-Im HorosCode-Template-Root liegt zusätzlich eine fertige `HorosCode-Cursor-Explorer-Setup.exe` (neben `starter.bat`). Doppelklick installiert die App; danach startet `starter.bat` die Release-Version automatisch.
+Im HorosCode-Template-Root liegt zusätzlich eine fertige `Cursor-Explorer-Setup.exe` (neben `starter.bat`). Doppelklick installiert die App; danach startet `starter.bat` die Release-Version automatisch.
 
 ## Starten (Entwicklung)
 

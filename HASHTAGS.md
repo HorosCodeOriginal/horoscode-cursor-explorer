@@ -1,4 +1,4 @@
-# Hashtags — HorosCode Cursor Explorer
+# Hashtags — Cursor-Explorer
 
 Copy-paste Blöcke für Social Media. Hashtags sind kuratiert — keine Token-, API- oder Spam-Tags.
 
@@ -27,7 +27,7 @@ Copy-paste Blöcke für Social Media. Hashtags sind kuratiert — keine Token-, 
 ### Launch (DE)
 
 ```
-HorosCode Cursor Explorer: Deine .cursor/-Konfiguration auf einen Blick — Regeln, Skills, Agenten, Hooks, MCP. Tauri + React für Windows.
+Cursor-Explorer: Deine .cursor/-Konfiguration auf einen Blick — Regeln, Skills, Agenten, Hooks, MCP. Tauri + React für Windows.
 
 #HorosCode #CursorExplorer #CursorIDE #Tauri #DotCursor #AIAgents
 ```
@@ -43,7 +43,7 @@ Workspace Health, Agenten-Roster und Volltextsuche über rules/, skills/ und age
 ### Launch (EN)
 
 ```
-HorosCode Cursor Explorer — scan and explain your .cursor/ workspace: rules, skills, agents, hooks, MCP. Desktop app built with Tauri + React.
+Cursor-Explorer — scan and explain your .cursor/ workspace: rules, skills, agents, hooks, MCP. Desktop app built with Tauri + React.
 
 #HorosCode #CursorExplorer #CursorIDE #Tauri #DesktopApp #AIAgents #OpenSource
 ```
@@ -55,7 +55,7 @@ HorosCode Cursor Explorer — scan and explain your .cursor/ workspace: rules, s
 ### Produktankündigung (DE)
 
 ```
-Wir haben den HorosCode Cursor Explorer veröffentlicht: eine Windows-Desktop-App, die .cursor/-Workspaces scannt und erklärt.
+Wir haben Cursor-Explorer veröffentlicht: eine Windows-Desktop-App, die .cursor/-Workspaces scannt und erklärt.
 
 Was drin ist:
 • Dashboard mit Workspace Health
@@ -71,7 +71,7 @@ Entwickelt von HorosCode für HorosCloud-Template-Workspaces.
 ### Kurzpost (EN)
 
 ```
-Shipped: HorosCode Cursor Explorer — explore .cursor/ rules, skills, agents, and MCP config in a native Windows desktop app.
+Shipped: Cursor-Explorer — explore .cursor/ rules, skills, agents, and MCP config in a native Windows desktop app.
 
 #HorosCode #CursorExplorer #CursorIDE #DeveloperTools #Tauri #AIAgents #DotCursor
 ```
@@ -85,7 +85,7 @@ Kurze Caption + Tag-Block (unter Screenshot-Galerie):
 ```
 .cursor/ endlich lesbar: Regeln, Skills, Agenten & MCP in einer App. 🖥️
 
-HorosCode Cursor Explorer — für Teams mit Cursor-Workspaces.
+Cursor-Explorer — für Teams mit Cursor-Workspaces.
 
 .
 .

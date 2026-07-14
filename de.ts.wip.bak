@@ -44,15 +44,15 @@ export const de = {
       "Willkommen beim Cursor-Explorer — einer Desktop-Anleitung für deinen Workspace-.cursor-Ordner: wie Cursor-Regeln, Skills, Agenten, Befehle und Hooks zusammenspielen.",
     whatIsCursor: {
       title: "Was ist .cursor?",
-      body: "Der .cursor-Ordner ist das Projektgedächtnis der Cursor IDE: dauerhafte Anweisungen (Regeln), wiederverwendbare Workflows (Skills), eigene Subagenten, Slash-Befehle und Automatisierungs-Hooks.",
+      body: "Projektgedächtnis für Regeln, Skills, Agenten, Befehle & Hooks.",
     },
     teamAvatar: {
       title: "HorosCode Team Avatar",
-      body: "Dieses Template nutzt orchestrierte Agenten (Sokka, Aang, Katara, …) mit Regeln wie orchestrator.mdc, die Arbeit über das Task-Tool routen, statt alles im Root-Thread zu erledigen.",
+      body: "Orchestrierte Agenten arbeiten wie ein Team an deinen Aufgaben.",
     },
     basicVsAdvanced: {
       title: "Einfach vs. Erweitert",
-      body: "Einfach zeigt Zusammenfassungen und sichere Exporte (Geheimnisse geschwärzt). Erweitert zeigt vollständige Dateiinhalte, Hook-Skripte und Lockfile-Metadaten.",
+      body: "Einfach: klare Zusammenfassungen. Erweitert: vollständige Details.",
     },
     quickMap: "Kurzübersicht",
     quickMapItems: [
