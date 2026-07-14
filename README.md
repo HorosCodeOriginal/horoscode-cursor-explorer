@@ -6,50 +6,24 @@ Entwickelt von **HorosCode** für HorosCloud-Template-Workspaces.
 
 ## Screenshots
 
-### Einstieg
+### Dashboard — Einstieg
 
-Willkommens-Dashboard im **Einfach**-Modus: Was `.cursor/` enthält, wie das HorosCode-Team-Avatar-System funktioniert und wann du **Einfach** vs. **Erweitert** nutzt.
+Neues Start-Dashboard mit **Metrik-Karten** (Regeln, Skills, Agenten, Scan-Status), **Erste 5 Minuten**-Onboarding, **Workspace Health** und **gruppierter Sidebar** (Verstehen → Konfiguration → Ausführen → Finden).
 
-![Einstieg — Willkommens-Dashboard im Einfach-Modus](docs/screenshots/einstieg.png)
+![Dashboard — Metrik-Karten, Onboarding und Workspace Health](docs/screenshots/einstieg-dashboard.png)
 
-### Ordnerkarte
+### Live-Ansicht
 
-Live-Baum deines `.cursor/`-Ordners. Graue Knoten sind laut `.gitignore` vom Scan und Export ausgeschlossen.
+Dieselbe Oberfläche im laufenden HorosCode-Workspace: Fortschrittsbalken der Onboarding-Checkliste, Health-Checks pro Kategorie und Schnellkarten zu `.cursor/`, Team-Avataren und **Einfach** vs. **Erweitert**.
 
-![Ordnerkarte — Live-Baum des .cursor-Ordners](docs/screenshots/ordnerkarte.png)
-
-### Regeln
-
-Parst `rules/*.mdc` im **Einfach**-Modus — hier die HorosCode-Regel mit Frontmatter, **Always Apply**-Tags und Beziehungsgraph (verweist auf / verknüpft von).
-
-![Regeln — horoscode-Regel mit Beziehungsgraph im Einfach-Modus](docs/screenshots/regeln.png)
-
-### Skills
-
-Lokale HorosCode-Skills, Cursor-Eingebaute (`skills-cursor/`) und Upstream-Metadaten — im **Einfach**-Modus mit Kurzbeschreibung und Querverweisen (hier: eingebauter **canvas**-Skill).
-
-![Skills — canvas-Skill mit Beziehungen im Einfach-Modus](docs/screenshots/skills.png)
-
-### Agenten
-
-Team-Avatar-Roster mit Detailansicht — hier der **HorosCloudV5 Helper Agent** mit Mission, Notfall-Befehlen und Querverweisen.
-
-![Agenten — HorosCloudV5 Helper Agent im Team-Roster](docs/screenshots/agenten.png)
-
-### Befehle & Modi
-
-Slash-Befehle mit Markdown-Dokumentation; daneben Modus-Parameter (`/lean`, `/wide`, `/doc-epic`, …) — hier der **cactus-juice**-Befehl im **Einfach**-Modus.
-
-![Befehle & Modi — cactus-juice mit Modus-Parameter-Spickzettel](docs/screenshots/befehle-modi.png)
-
-### Suche
-
-Volltextsuche über Regeln, Skills, Agenten und Befehle — mit Facetten nach Typ (Regel, Skill, Agent, …) und Quelle (HorosCode lokal, Cursor eingebaut, Upstream).
-
-![Suche — Volltext mit Typ- und Quellen-Facetten](docs/screenshots/suche.png)
+![Live-Ansicht — Dashboard im HorosCode-Template-Workspace](docs/screenshots/einstieg-live.png)
 
 ## Funktionen
 
+- **Dashboard** — Metrik-Karten für Regeln, Skills, Agenten und letzten Scan; Sparklines und Health-Gauge auf einen Blick
+- **Erste 5 Minuten** — Onboarding-Checkliste mit Fortschritt (Workspace öffnen, scannen, Regeln prüfen, Skills entdecken, Export)
+- **Workspace Health** — Kategorie-Checks (Regeln, Skills, Agenten, Hooks) mit klarem Status
+- **Gruppierte Sidebar** — Navigation in vier Bereichen: Verstehen, Konfiguration, Ausführen, Finden
 - **Ordnerkarte** — Live-Baum mit Ausschluss-Hinweisen aus `.gitignore`
 - **Regeln** — parst `rules/*.mdc` Frontmatter + vollständige Inhalte
 - **Skills** — lokale HorosCode-Skills, Cursor-Eingebaute (`skills-cursor/`), Upstream-Lockfile-Metadaten
@@ -65,6 +39,16 @@ Volltextsuche über Regeln, Skills, Agenten und Befehle — mit Facetten nach Ty
 - [Node.js](https://nodejs.org/) 18+ (getestet mit v24)
 - [Rust](https://rustup.rs/) stable (für Tauri)
 - Windows 10+
+
+## Installation (Windows)
+
+Nach `npm run tauri build` liegt der Windows-Installer unter:
+
+```
+cursor-explorer/dist-installer/HorosCode-Cursor-Explorer-Setup.exe
+```
+
+Im HorosCode-Template-Root liegt zusätzlich eine fertige `HorosCode-Cursor-Explorer-Setup.exe` (neben `starter.bat`). Doppelklick installiert die App; danach startet `starter.bat` die Release-Version automatisch.
 
 ## Starten (Entwicklung)
 
