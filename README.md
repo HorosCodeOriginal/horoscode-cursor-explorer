@@ -143,6 +143,14 @@ cursor-explorer/
     parser.rs          Frontmatter + Referenz-Extraktion
 ```
 
+## Topics & Hashtags
+
+**GitHub-Topics:** `horoscode`, `cursor-ide`, `tauri`, `react`, `desktop-app`, `developer-tools`, `ai-agents`, `agent-orchestration`, `rules`, `skills`, `hooks`, `mcp`, `dotcursor`, `workspace-explorer`, `windows`, `documentation`, `open-source`, `markdown`, `german`
+
+Für Social Sharing (Deutsch/Englisch):
+
+`#HorosCode` `#CursorIDE` `#Tauri` `#React` `#DesktopApp` `#DeveloperTools` `#AIAgents` `#AgentOrchestration` `#CursorRules` `#CursorSkills` `#MCP` `#DotCursor` `#OpenSource` `#Windows` `#Dokumentation`
+
 ## Lizenz
 
 HorosCode internes Template-Tooling.
