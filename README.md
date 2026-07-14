@@ -6,17 +6,41 @@ Entwickelt von **HorosCode** für HorosCloud-Template-Workspaces.
 
 ## Screenshots
 
-### Dashboard — Einstieg
+### Einstieg — Dashboard
 
-Neues Start-Dashboard mit **Metrik-Karten** (Regeln, Skills, Agenten, Scan-Status), **Erste 5 Minuten**-Onboarding, **Workspace Health** und **gruppierter Sidebar** (Verstehen → Konfiguration → Ausführen → Finden).
+Start-Dashboard mit **Metrik-Karten** (Regeln, Skills, Agenten, Scan-Status), **Erste 5 Minuten**-Onboarding, **Workspace Health** und **gruppierter Sidebar** (Verstehen → Konfiguration → Ausführen → Finden).
 
-![Dashboard — Metrik-Karten, Onboarding und Workspace Health](docs/screenshots/einstieg-dashboard.png)
+![Einstieg — Metrik-Karten, Onboarding und Workspace Health](docs/screenshots/einstieg.png)
 
-### Live-Ansicht
+### Regeln
 
-Dieselbe Oberfläche im laufenden HorosCode-Workspace: Fortschrittsbalken der Onboarding-Checkliste, Health-Checks pro Kategorie und Schnellkarten zu `.cursor/`, Team-Avataren und **Einfach** vs. **Erweitert**.
+Regel-Explorer im **Erweitert**-Modus: alle `.mdc`-Dateien mit Frontmatter, Beziehungsgraph und Volltext — hier die Orchestrator-Regel mit Team-Avatar-Verknüpfungen.
 
-![Live-Ansicht — Dashboard im HorosCode-Template-Workspace](docs/screenshots/einstieg-live.png)
+![Regeln — orchestrator.mdc mit Beziehungen und Erweitert-Ansicht](docs/screenshots/regeln.png)
+
+### Agenten
+
+Agenten-Roster mit Typ-Badges (Agent, Koordinator) und Detailansicht inklusive Beziehungslinks — Beispiel **HELPER-AGENT-QUICKSTART** mit Feature-Checkliste.
+
+![Agenten — HELPER-AGENT-QUICKSTART mit Beziehungen](docs/screenshots/agenten.png)
+
+### Befehle & Modi
+
+Slash-Befehle und Modus-Parameter auf einen Blick — `/build` mit Workflow (Explore → Plan → Execute → Verify) und Spickzettel für `/lean`, `/wide`, `/doc-epic` u. a.
+
+![Befehle & Modi — /build und Modus-Parameter](docs/screenshots/befehle-modi.png)
+
+### Suche
+
+Volltextsuche über Regeln, Skills, Agenten und Befehle mit **Typ-** und **Quellen-Filtern** (HorosCode lokal, Cursor eingebaut, Upstream).
+
+![Suche — Volltext mit Typ- und Quellen-Facetten](docs/screenshots/suche.png)
+
+### Kurzübersicht
+
+Gescrolltes Einstieg-Dashboard mit **Kurzübersicht** aller `.cursor/`-Konventionen (`rules/*.mdc`, `skills/**/SKILL.md`, `agents/*.md`, Hooks, MCP).
+
+![Einstieg — Kurzübersicht der .cursor-Konventionen](docs/screenshots/einstieg-kurzuebersicht.png)
 
 ## Funktionen
 
